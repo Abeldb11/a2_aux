@@ -10,7 +10,7 @@ import numpy as np
 import optax
 import pytest
 
-from residual.aux_losses import anchor_positions, contrastive_future_loss
+from residual.a2_losses import anchor_positions, contrastive_future_loss
 from residual.cpc_heads import a_key, init_cpc_heads, predict_future, project, q_key
 
 D = M = 16
